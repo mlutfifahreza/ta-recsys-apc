@@ -1,9 +1,16 @@
 # MPD files
 1-data/mpd/*
 
+# Big generated files
+1-data/dataset/*
+
 # MacOS
 .DS_Store
 
+# Test files
+**test**
+
+# <-- FROM PYTHON TEMPLATE -->
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
