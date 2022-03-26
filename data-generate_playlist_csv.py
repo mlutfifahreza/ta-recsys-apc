@@ -20,7 +20,7 @@ for i in range(MPD_FILE_COUNT):
 
 # Getting data and extract CSV
 header = ["id","title","tracks"]
-extract_path_name = current_path + "/1-data/dataset/playlist.csv"
+extract_path_name = current_path + "/1-data/dataset/playlists.csv"
 with open(extract_path_name, 'w', encoding='UTF8', newline='') as f:
     print("Creating", extract_path_name)
     writer = csv.writer(f)
