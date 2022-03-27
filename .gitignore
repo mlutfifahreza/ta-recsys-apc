@@ -4,6 +4,7 @@
 
 # Big generated files
 1-data/dataset/*
+!info.txt
 
 # MacOS
 .DS_Store
