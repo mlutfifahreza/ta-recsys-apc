@@ -37,7 +37,7 @@ with open(extract_path_name, 'w', encoding='UTF8', newline='') as f:
             playlist = loaded_json["playlists"][j]
             # Extracting relevant data
             playlist_id = playlist["pid"]
-            playlist_title = playlist["name"].replace(","," ")
+            playlist_title = playlist["name"].replace(","," ").strip()
             playlist_tracks = []
             for track in playlist["tracks"]:
                 track_id = track["track_uri"].replace("spotify:track:","")
